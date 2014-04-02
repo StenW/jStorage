@@ -28,11 +28,12 @@ Below we are listing the steps needed for every provider.
 
 1. Go to: https://www.dropbox.com/developers/apps
 2. Click the "Create app"
-3. Choose "Dropbox API app" and "Files and datastores".
-4. Either choose own folder for your app or access to all files in Dropbox (If you are unsure, use own folder for app. It is more secure for both you and the user)
-5. Enter app name (This name will be visible for your users so choose a good one).
-6. Write down the "App Key" for later use.
-7. Write a address into "OAuth redirect URIs", this is the address the user will be sent to after giving your app permissions. Please note that it MUST to start with "https://" to work if you are using a DNS.
+3. Choose "Dropbox API app".
+4. Select "Files and datastores".
+5. When asked "Can your app be limited to its own, private folder?" choose "Yes - My app only needs access to files it creates", this is safer for both you and the users.
+6. Enter app name (This name will be visible for your users so choose a good one).
+7. Write down the "App Key" for later use.
+8. Write an address into "OAuth 2 - redirect URIs", this is the address the user will be sent to after giving your app permissions. Please note that it MUST to start with "https://" to work if you are using a DNS.
 
 
 ###Preparing GitHub###
